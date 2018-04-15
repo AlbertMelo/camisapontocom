@@ -1,0 +1,74 @@
+
+	[
+		{
+			"codigo":"001",
+			"descricao": "Camisa Hora de Aventura - Finn & Jake Black",
+			"categoria": "Desenho",
+			"valor": 59.90
+
+
+		},
+		{
+			"codigo":"002",
+			"descricao": "Camisa Hora de Aventura - Finn Blue",
+			"categoria": "Desenho", 
+			"valor": 59.90
+
+		},
+		{
+			"codigo":"003",
+			"descricao": "Camisa Hora de Aventura - Jake White Longa ",
+			"categoria": "Desenho",
+			"valor": 49.90
+
+		},
+		{
+			"codigo":"004",
+			"descricao": "Camisa Hora de Aventura - Jake Amarela",
+			"categoria": "Desenho",
+			"valor": 49.90
+
+		},
+		{
+			"codigo":"005",
+			"descricao": "Camisa Hora de Aventura - Marceline Black",
+			"categoria": "Desenho",
+			"valor": 69.90
+
+		},
+		{
+			"codigo":"006",
+			"descricao": "Camisa Hora de Aventura - Princesa Doce Pink",
+			"categoria": "Desenho",
+			"valor": 49.90
+
+		},
+		{
+			"codigo":"007",
+			"descricao": "Camisa Hora de Aventura - Rei Gelado White Black",
+			"categoria": "Desenho",
+			"valor": 59.90
+
+		},
+		{
+			"codigo":"008",
+			"descricao": "Camisa Star Wars - Star Wars",
+			"categoria": "Filme",
+			"valor": 39.90
+
+		},
+		{
+			"codigo":"009",
+			"descricao": "Camisa Star Wars - Nave",
+			"categoria": "Filme",
+			"valor": 49.90
+
+		},
+		{
+			"codigo":"010",
+			"descricao": "Camisa Star Wars - Troopers",
+			"categoria": "Filme",
+			"valor": 49.90
+
+		}
+	]

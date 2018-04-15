@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Camisa.com - Camisas com seu bom gosto</title>
+	
+	<!--Referencias aos CSS fiels-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/csspadrao.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/funcoes.js"></script>
+	
+</head>
+
+<body>
+	<div class="alert alert-danger" role="alert">
+  	Esta página é meramente para fins didáticos da aplicação dos conhecimentos das aulas de Desenvolvimento WEB ( HTML, CSS, JQuery, JSON e javaScript)
+	</div>
+	<!-- Cabecalho-->
+	<header id="topo"> 
+		<div class="container-fluid">
+			<nav class="navbar navbar-light bg-white">
+				<a class="navbar" href="index.html">
+			    	<img src="img/camisablack.jpg" width="45" height="40" class="d-inline-block align-top" alt="">
+			    </a>
+			    <h1 class="text-aling-left">Camisa.com</h1>
+			  	
+
+		  	  			<div class="form-inline">
+			  	  			<div class="form-group">
+					    		<input id="txtPesquisar" class="form-control" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
+					    	</div>
+					    	<button type="submit" id="btnPesquisarContato" class="btn btn-outline-dark my-2 my-sm-0" onclick="listarProdutos(this)">Pesquisar</button>
+						</div>
+
+					<form id="frm_login">
+
+					<!--
+			 		Substitui por formulario de Login ou recupera o logado no LocalStorage
+					-->
+					<div class="form-inline">
+	  					<div class="form-group">
+	    					<label for="login">Login:</label>
+	    					<input type="email" class="form-control" id="txtEmail" placeholder="email@exemplo.com">
+	  					</div>  	
+	  					<div class="form-group">
+	    					<label for="senha">Senha:</label> 
+	    					<input type="password" class="form-control" id="txtSenha">
+	  					</div>  	
+	  						<button  class="btn btn-default" id="btnEntrar" onclick="efetuarLogin()"> Entrar
+	  						</button>
+
+					  	<a href="#" class="badge badge-pill badge-info">Esqueci minha senha  </a>
+					  	<br/>
+					  	<a href="cadastrar.html" class="badge badge-pill badge-info">Cadastrar  </a>
+					</div>
+				</form>
+
+			</nav>
+		</div>
+	
+		<nav id="menu_nav" class="navbar navbar-expand-sm navbar-light bg-light">
+		  
+		  
+		</nav>
+	
+	</header>
+	<!--Fim do cabecalho-->
+
+	<!-- Conteudo da Pagina -->
+	<div id="conteudo" class="container-fluid">
+		<div id="resultadoPesquisa" class="row">
+			<div class="container-fluid col-md-6 col-sx-12">
+				<form id="frmContato" action="" method="post" onsubmit="validarDadosContato()">
+					<div class="form-group">
+						<label>Nome: </label>
+						<input class="form-control" type="text" id="txtNomeContato" placeholder="Informe seu nome" required>
+					</div>
+					<div class="form-group">
+						<label>Email: </label>
+						<input class="form-control" type="text" id="txtEmailContato" placeholder="Informe seu email" required>
+					</div>
+					<div class="form-group">
+						<label>Motivo do Contato: </label>
+						<select class="custom-select" id="opMotivo" required>
+						  <option value="duvida">Dúvida</option>
+						  <option value="critica">Crítica</option>
+						  <option value="sugetao">Sugestão</option>
+						  
+						</select>
+					</div>
+					<div class="form-group">
+						<label>Mensagem: </label>
+						<textarea id="txtMensagemContato" rows="10" cols="55%" required>
+							
+						</textarea>
+					</div>
+					<div class="form-group">
+						<input type="submit" id="btnEnviarContato" class="btn btn-outline-dark"  name="Enviar Mensagem">
+						
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</div>
+
+	
+	<!-- Rodapé -->
+
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-md-12 col-sm-12">
+					<p> Camisa.com @2018</p>
+				</div>
+			</div>
+		</div>
+		
+	<div class="alert alert-danger" role="alert">
+  	Esta página é meramente para fins didáticos da aplicação dos conhecimentos das aulas de Desenvolvimento WEB ( HTML, CSS, JQuery, JSON e javaScript)
+	</div>
+
+	</footer>
+
+	
+	
+
+
+	<!--Scripts BootStrap-->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+	
+	
+	
+</body>
+</html>

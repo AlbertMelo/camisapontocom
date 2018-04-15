@@ -1,0 +1,44 @@
+.logo_topo{
+	width: auto;
+	height:auto;
+}
+
+.texto_topo{
+	font-family: sans-serif;
+	font-size: 34px;
+	color: green;
+
+}
+.espaco{
+	margin: -2px;
+}
+.ocupa80{
+	width: 80%;
+}
+
+.altura80{
+	height: 75%;
+}
+
+.conteudo{
+    text-align: center;
+ }
+p{
+
+	text-align:center;
+	background-color: #343a40;
+	opacity: 80%;
+	color: white;
+}
+
+#menu-nav a{
+	color: white;
+}
+
+
+
+.rodape{
+	font-size: 12px;
+	font-family: sans-serif;
+	text-align: left;
+}
